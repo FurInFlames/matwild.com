@@ -43,10 +43,8 @@ a:active   {text-decoration:none;}
 {
 	padding: 0.5em;
         background: #FFE9E8;
-	border-bottom: 2px solid #fff;
-	border-left: 2px solid #fff;
+	border: 2px solid #fff;
         color: #AA0114;
-	border-top: 2px solid transparent;
         height: 2em;
 }
 #box-table-a tr:hover td
