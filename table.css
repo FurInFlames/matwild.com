@@ -34,6 +34,7 @@ a:active   {text-decoration:none;}
 	font-weight: normal;
         text-align: center;
         padding: 0.5em;
+        border: 1px solid #fff;
         background: #9C1C6B;
 	border-bottom: 2px solid #fff;
 	color: #fff;
