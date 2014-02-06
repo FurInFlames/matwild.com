@@ -2,8 +2,8 @@ body {line-height: 1.6em;}
 
 a:link       {text-decoration:none;}
 a:visited {text-decoration:none;}
-a:hover     {text-decoration:underline;}
-a:active   {text-decoration:underline;}
+a:hover     {text-decoration:none;}
+a:active   {text-decoration:none;}
 
 #fox
 {
@@ -26,22 +26,22 @@ a:active   {text-decoration:underline;}
 	font-size: x-large;
 	font-weight: normal;
 	padding: 8px;
-	background: #b9c9fe;
+        background: #9C1C6B;
 	border-bottom: 1px solid #fff;
-	color: #039;
+	color: #fff;
 }
 #box-table-a td
 {
 	padding: 8px;
-	background: #e8edff; 
+        background: #FFE9E8;
 	border-bottom: 1px solid #fff;
 	border-left: 1px solid #fff;
-	color: #669;
+        color: #AA0114;
 	border-top: 1px solid transparent;
 }
 #box-table-a tr:hover td
 {
-	background: #d0dafd;
+        background: #E47297;
 	color: #339;
 }
 
