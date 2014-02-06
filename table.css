@@ -18,6 +18,8 @@ a:active   {text-decoration:none;}
 	text-align: center;
 }
 
+
+
 #box-table-a
 {
 	font-family: "Georgia", "Lucida Grande", Sans-Serif;
@@ -36,6 +38,10 @@ a:active   {text-decoration:none;}
         background: #9C1C6B;
 	border-bottom: 1px solid #fff;
 	color: #fff;
+}
+#box-table-a th#heart
+{
+    font-family: Serif;
 }
 #box-table-a td
 {
