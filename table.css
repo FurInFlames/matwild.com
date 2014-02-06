@@ -20,7 +20,7 @@ a:active   {text-decoration:none;}
 
 #box-table-a
 {
-	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-family: "Georgia", "Lucida Grande", Sans-Serif;
 	font-size: x-large;
 	margin: 0px;
 	width: 100%;
@@ -37,6 +37,8 @@ a:active   {text-decoration:none;}
 	border-bottom: 1px solid #fff;
 	color: #fff;
 }
+#box-table-a th#heart {font-family: Serif;}
+
 #box-table-a td
 {
 	padding: 0.5em;
