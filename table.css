@@ -18,11 +18,9 @@ a:active   {text-decoration:none;}
 	text-align: center;
 }
 
-
-
 #box-table-a
 {
-    font-family: "Lucida Grande", "Lucida Grande", Sans-Serif;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
 	font-size: x-large;
 	margin: 0px;
 	width: 100%;
@@ -38,10 +36,6 @@ a:active   {text-decoration:none;}
         background: #9C1C6B;
 	border-bottom: 1px solid #fff;
 	color: #fff;
-}
-#box-table-a th#heart
-{
-    font-family: "Lucida Sans Unicode";
 }
 #box-table-a td
 {
