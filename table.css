@@ -37,20 +37,20 @@ a.course
         background: #FFE9E8;
 	border: 2px solid #fff;
         color: #AA0114;
-        padding: 0.5em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        padding-left: 2em;
         height: 2em;
 }
 #timetable tr:hover td
 {
         background: #E47297;
-	color: #339;
 }
 #timetable tr td:hover
 {
     background: #CA278C;
-    color: #000;
 }
-#timetable tr td:hover *
+#timetable tr td.time ~ td:hover *
 {
     color: #fff;
 }
