@@ -1,6 +1,6 @@
 body
 {
-    font-family: "DroidSans", Sans-Serif;
+    font-family: "Droid Sans", Sans-Serif;
     font-size: large;
     line-height: 1.5em;
 }
@@ -24,7 +24,6 @@ a.course
 {
 	font-weight: normal;
         text-align: center;
-        border: 1px solid #fff;
         background: #9c1c6b;
 	border-bottom: 2px solid #fff;
 	color: #fff;
@@ -32,15 +31,20 @@ a.course
         height: 1.5em;
 }
 
+#timetable th#heart
+{
+    font-family: "AndroidEmoji";
+}
+
 #timetable td
 {
         background: #ffe9e8;
 	border: 2px solid #fff;
         color: #aa0114;
-        padding-top: 0.5em;
-        padding-bottom: 0.5em;
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
         padding-left: 1em;
-        height: 2em;
+        height: 3em;
 }
 
 
