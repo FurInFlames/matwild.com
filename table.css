@@ -1,7 +1,6 @@
 body
 {
     font-family: "Droid Sans", Sans-Serif;
-    font-size: medium;
     line-height: 1.5em;
 }
 
@@ -22,6 +21,7 @@ a.course
 }
 #timetable th
 {
+        font-size: large;
 	font-weight: normal;
         text-align: center;
         background: #9c1c6b;
@@ -38,6 +38,7 @@ th#heart
 
 #timetable td
 {
+        font-size: medium;
         background: #ffe9e8;
 	border: 2px solid #fff;
         color: #aa0114;
