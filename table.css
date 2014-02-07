@@ -31,9 +31,9 @@ a.course
         height: 1.5em;
 }
 
-#timetable th#heart
+th#heart
 {
-    font-family: "AndroidEmoji";
+    font-family: "Android Emoji";
 }
 
 #timetable td
