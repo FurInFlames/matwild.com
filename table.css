@@ -1,6 +1,5 @@
 body
 {
-    font-family: "Droid Sans", Sans-Serif;
     line-height: 1.5em;
 }
 
@@ -13,6 +12,7 @@ a.course
 
 #timetable
 {
+        font-family: "Droid Sans", Sans-Serif;
 	margin: 0px;
 	width: 100%;
 	text-align: left;
