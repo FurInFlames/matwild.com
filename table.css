@@ -42,6 +42,8 @@ a.course
         padding-left: 1em;
         height: 2em;
 }
+
+
 #timetable tr:hover td
 {
         background: #ca278c;
@@ -49,7 +51,12 @@ a.course
 }
 
 
-#timetable tr td.time{width:8%;}
+#timetable tr td.time
+{
+    width:8%;
+    text-align: center;
+    padding-left: 0px;
+}
 #timetable tr td{width:23%;}
 
 #fox
@@ -58,3 +65,5 @@ a.course
     width: 100%;
     text-align: center;
 }
+
+#hiddenzero {visibility: hidden;}
