@@ -25,7 +25,7 @@ a.course
 	font-weight: normal;
         text-align: center;
         border: 1px solid #fff;
-        background: #9C1C6B;
+        background: #9c1c6b;
 	border-bottom: 2px solid #fff;
 	color: #fff;
         padding: 0.5em;
@@ -34,9 +34,9 @@ a.course
 
 #timetable td
 {
-        background: #FFE9E8;
+        background: #ffe9e8;
 	border: 2px solid #fff;
-        color: #AA0114;
+        color: #aa0114;
         padding-top: 0.5em;
         padding-bottom: 0.5em;
         padding-left: 1em;
@@ -44,16 +44,10 @@ a.course
 }
 #timetable tr:hover td
 {
-        background: #E47297;
+        background: #ca278c;
+        color: #fff;
 }
-#timetable tr td:hover
-{
-    background: #CA278C;
-}
-#timetable tr td.time ~ td:hover *
-{
-    color: #fff;
-}
+
 
 #timetable tr td.time{width:8%;}
 #timetable tr td{width:23%;}
