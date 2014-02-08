@@ -23,6 +23,7 @@ $('#moodle-login').easyModal(
 $('#login').click(
     function(e)
     {
-        $.cookie('moodle_login', 'test', { path: '/', domain: 'matwild.com', expires: 3650});
+        $.cookie('moodle_username', $("#username").val(), { path: '/', domain: 'matwild.com', expires: 3650});
+        $.cookie('moodle_password', $("#password").val(), { path: '/', domain: 'matwild.com', expires: 3650});
     }
 );
