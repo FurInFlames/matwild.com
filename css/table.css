@@ -1,0 +1,73 @@
+body
+{
+    font-family: "Droid Sans", Sans-Serif;
+    line-height: 1.5em;
+}
+
+#timetable a.course
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+#timetable
+{
+    margin: 0px;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+#timetable th
+{
+    font-size: large;
+    font-weight: normal;
+    text-align: center;
+    background: #9c1c6b;
+    border-bottom: 3px solid #fff;
+    color: #fff;
+    padding: 0.5em;
+    height: 1.5em;
+}
+
+#timetable thead tr th#heart
+{
+    font-family: "Android Emoji";
+}
+
+#timetable td
+{
+        font-size: large;
+        background: #ffe9e8;
+        border: 3px solid #fff;
+        color: #aa0114;
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
+        padding-left: 1em;
+        height: 3em;
+}
+
+
+#timetable tr:hover td
+{
+        background: #ca278c;
+        color: #fff;
+}
+
+
+#timetable tr td.time
+{
+    width:8%;
+    text-align: center;
+    padding-left: 0px;
+}
+#timetable tr td{width:23%;}
+
+#fox
+{
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+#hiddenzero {visibility: hidden;}
