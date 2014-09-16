@@ -16,7 +16,7 @@
 
         xhr.onreadystatechange = function() {
         if (xhr.readyState != 4)  { return; }
-
+alert("test");
         try {
             document.getElementById("tracks").innerHTML = xhr.response.recenttracks['@attr']['total'];
         }
