@@ -36,7 +36,7 @@
         ]]> </script>
 
 
-    <image  width="296" height="360"
+    <image onload="circle_click(evt)" width="296" height="360"
            xlink:href="http://www.matwild.com/lastfm/totoro.jpg" />
 
     <text id="tracks" x="140" y="290" font-size="42" font-family="Verdana" fill="red"></text>
