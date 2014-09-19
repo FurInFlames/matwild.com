@@ -4,25 +4,24 @@
 
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
      xmlns:xlink="http://www.w3.org/1999/xlink"
-     width="300" height="400">
+     width="296" height="360">
 
     <script type="application/ecmascript"> <![CDATA[
-        function circle_click(evt) {
+    function circle_click() {
         xhr = new XMLHttpRequest()
-
         xhr.open("GET", "http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=KaY-Yuca&api_key=037adb3787ee17a776346e8f9ac90978&format=json&limit=1&from="+today())
         xhr.responseType = "json";
         xhr.send()
 
         xhr.onreadystatechange = function() {
-        if (xhr.readyState != 4)  { return; }
+            if (xhr.readyState != 4)  { return; }
 
-        try {
-            document.getElementById("tracks").innerHTML = xhr.response.recenttracks['@attr']['total'];
-        }
-        catch(TypeError) {
-            document.getElementById("tracks").innerHTML = xhr.response.recenttracks['total'];
-        }
+            try {
+                document.getElementById("tracks").innerHTML = xhr.response.recenttracks['@attr']['total'];
+            }
+            catch(TypeError) {
+                document.getElementById("tracks").innerHTML = xhr.response.recenttracks['total'];
+            }
 
         };
 
@@ -31,14 +30,11 @@
             var today = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate());
             return today / 1000;
         }
+    } ]]>
+    </script>
 
-        }
-        ]]> </script>
-
-
-    <image onload="circle_click(evt)" width="296" height="360"
+    <image onload="circle_click()" width="296" height="360"
            xlink:href="http://www.matwild.com/lastfm/totoro.jpg" />
 
     <text id="tracks" x="140" y="290" font-size="42" font-family="Verdana" fill="red"></text>
-
 </svg>
